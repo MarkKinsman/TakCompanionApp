@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Turn Timer">
+        <menu>
+            <item
+                android:id="@+id/nav_timer"
+                android:icon="@drawable/ic_timer_black_24dp"
+                android:title="Timer" />
+            <!-- <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/ic_history_black_24dp"
+                android:title="History" /> -->
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+        </menu>
+    </item>
+    <item android:title="Other">
+        <menu>
+            <item android:id="@+id/nav_rules"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="Rules" />
+            <item android:id="@+id/nav_quit"
+                android:icon="@drawable/ic_close_black_24dp"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+
+</menu>
